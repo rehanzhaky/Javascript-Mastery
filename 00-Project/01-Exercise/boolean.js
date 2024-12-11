@@ -25,3 +25,9 @@ let apakahPerempuan = false;
 
 console.log(apakahLaki && apakahPerempuan);
 console.log(apakahLaki && apakahLaki);
+
+// latihan 4
+// Gunakan Operator Logika ||
+let apakahLakiLaki = true;
+let apakahWanita = false;
+console.log(apakahLakiLaki || apakahWanita);
