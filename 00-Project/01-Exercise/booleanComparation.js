@@ -10,3 +10,5 @@ let nilai2 = 15;
 console.log(nilai1 > nilai2);
 console.log(nilai1 == nilai2);
 console.log(nilai1 != nilai2);
+console.log(nilai1 < nilai2);
+
