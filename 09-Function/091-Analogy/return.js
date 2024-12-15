@@ -4,3 +4,4 @@ function blender(bahan) {
 
 let serving = blender("Stroberi");
 console.log(serving);
+

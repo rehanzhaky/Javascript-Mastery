@@ -1,3 +1,5 @@
-const penjumlahan = (a, b) => a + b;
+penjumlahan = (a, b) => a + b;
 
-console.log(penjumlahan(3, 4));
+console.log(penjumlahan(4, 4));
+
+

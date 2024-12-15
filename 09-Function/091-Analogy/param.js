@@ -3,3 +3,7 @@ function blender(bahan) {
 }
 
 console.log(blender("Buah Stroberi"));
+
+async (params) => {
+  
+}

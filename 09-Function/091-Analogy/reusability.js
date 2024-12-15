@@ -4,3 +4,5 @@ function blender(bahan) {
 
 console.log(blender("Stroberi"));
 console.log(blender("Mangga"));
+
+
