@@ -1,5 +1,5 @@
 penjumlahan = (a, b) => a + b;
 
-console.log(penjumlahan(4, 4));
+console.log(penjumlahan(6, 4));
 
 
