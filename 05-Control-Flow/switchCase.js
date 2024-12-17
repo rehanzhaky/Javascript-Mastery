@@ -1,6 +1,6 @@
-let lampuSekarang = "Merah";
+let lampuLaluLintasSekarang = "Merah";
 
-switch (lampuSekarang) {
+switch (lampuLaluLintasSekarang) {
   case "Hijau":
     console.log("Silahkan Jalan");
     break;
