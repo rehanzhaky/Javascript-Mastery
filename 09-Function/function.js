@@ -4,5 +4,5 @@ function tambah(a, b) {
 }
 
 
-let hasil = tambah(5, 7);
+let hasil = tambah(0, 9);
 console.log(hasil);
