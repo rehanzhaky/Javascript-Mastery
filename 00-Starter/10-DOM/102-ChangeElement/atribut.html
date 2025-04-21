@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mengubah Atribut</title>
+  </head>
+  <body>
+    <a href="https://www.google.com" id="alamat" target="_blank"
+      >Klik untuk ke google</a
+    >
+    <button onclick="ubahTujuan()">
+      Klik untuk mengubah destinasi ke Netflix
+    </button>
+
+    <button onclick="balikAwal()">
+      Klik untuk kembali ke destinasi Google
+    </button>
+
+    <script>
+      function ubahTujuan() {
+        document
+          .getElementById("alamat")
+          .setAttribute("href", "https://www.netflix.com");
+      }
+
+      function balikAwal() {
+        document
+          .getElementById("alamat")
+          .setAttribute("href", "https://www.google.com");
+      }
+    </script>
+  </body>
+</html>
