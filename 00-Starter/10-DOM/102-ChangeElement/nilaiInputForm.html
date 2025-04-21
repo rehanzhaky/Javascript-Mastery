@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mengubah Nilai Input Form</title>
+  </head>
+  <body>
+    <input id="nama" value="raihan" />
+    <br /> <br>
+    <button onclick="ubahInput()">Klik untuk mengubah value inputan</button>
+    <br> <br>
+    <button onclick="balikAwal()">Klik untuk kembali ke inputan awal</button>
+
+    <script>
+      function ubahInput() {
+        document.getElementById("nama").value = "Zhaky";
+      }
+
+      function balikAwal() {
+        document.getElementById("nama").value = "raihan";
+      }
+    </script>
+  </body>
+</html>

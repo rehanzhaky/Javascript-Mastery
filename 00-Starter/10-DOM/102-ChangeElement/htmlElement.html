@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mengubah isi HTML Elemen</title>
+  </head>
+  <body>
+    <div id="awal">Konten Awal</div>
+    <button onclick="ubah()">Klik untuk mengubah konten</button>
+    <button onclick="awal()">Klik untuk kembali ke konten awal</button>
+
+    <script>
+      function ubah() {
+        document.getElementById("awal").innerHTML =
+          "<strong>Konten dengan tag &lt;strong&gt;</strong>";
+      }
+
+      function awal() {
+        document.getElementById("awal").innerHTML = "<div>Konten Awal</div>";
+      }
+    </script>
+  </body>
+</html>
